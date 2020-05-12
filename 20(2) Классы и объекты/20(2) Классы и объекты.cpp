@@ -79,6 +79,7 @@ void print_ticket(ticket t)
 }
 void main()
 {
+	setlocale(LC_ALL,"rus);
 	ticket t1;
 	t1.show();
 	ticket t2(48653461, "16.07.2015", 23);
